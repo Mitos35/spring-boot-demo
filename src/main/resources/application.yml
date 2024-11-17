@@ -1,0 +1,9 @@
+app.services.test.messages: Hello from TestService!
+
+spring:
+  datasource:
+    username: ${DEMO_USER}
+    password: ${DEMO_PASSWORD}
+    url: ${DEMO_URL}
+    driver-class-name: org.postgresql.Driver
+  flyway:

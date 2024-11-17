@@ -1,0 +1,12 @@
+app.services.test.messages: Hello from TestService2!
+
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5433/spring-boot-demo-db
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
